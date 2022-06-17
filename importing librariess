@@ -1,0 +1,15 @@
+# Importing the necessary libraraies
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import missingno as msno
+# Importing the dataset
+data = pd.read_csv('/content/Stores.csv')
+data.head(10)
+# Checking the data information
+data.info()
+# checking if there is any missing data
+data.isnull().sum()
+# checking the correlation of the dataset
+data.corr()

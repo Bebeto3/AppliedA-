@@ -1,4 +1,4 @@
-# checking the stsatistical summary of the dataset
+# checking the statistical summary of the dataset
 data.describe()
 # iterating the columns
 for col in data.columns:
